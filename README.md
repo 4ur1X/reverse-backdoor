@@ -1,6 +1,6 @@
 ## Malware - Reverse Backdoor
 
-This is a python program that once executed on victim machine provides a direct backdoor access to it.
+This is a python program that once executed on victim machine provides a direct backdoor access to it anytime.
 
 Some of its features include:
 - access file system
