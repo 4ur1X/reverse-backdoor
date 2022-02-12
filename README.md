@@ -7,7 +7,7 @@ Some of its features include:
 - execute system commands
 - download files
 - upload files
-- maintin access after system restart (persistence)
+- maintain access after system restart (persistence)
 
 Note: Before executing this program on the victim machine, make sure your attacker machine is listening on a specific port [via netcat or listener.py (another repository)].
 
